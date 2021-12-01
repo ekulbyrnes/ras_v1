@@ -8,7 +8,7 @@ STATUS = (
     (1, "Publish")
 )
 
-class Article(models.Model):
+class Page(models.Model):
     title = models.CharField(max_length=200, unique=True)
     slug = models.SlugField(max_length=200, unique=True)
     category = models.CharField(max_length=200, unique=False)
