@@ -59,6 +59,7 @@ INSTALLED_APPS = [
     # Include this to build on top of Boostrap 4
     'bootstrap4',
     'blog',
+    'django_summernote',
 ]
 
 MIDDLEWARE = [
