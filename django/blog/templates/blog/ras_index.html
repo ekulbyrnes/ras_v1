@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+    {% load static %}
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Home - Radio Active Scout</title>
+    <link rel="icon" type="image/png" sizes="1924x1923" href="{% static './assets/img/RAS_placard_digital_labeled_arialBlack_main.png' %}">
+    <link rel="icon" type="image/png" sizes="1924x1923" href="{% static './assets/img/RAS_placard_digital_labeled_arialBlack_main.png' %}">
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bebas+Neue">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab">
+    <link rel="stylesheet" href="{% static './assets/fonts/fontawesome-all.min.css' %}">
+    <link rel="stylesheet" href="{% static './assets/fonts/font-awesome.min.css' %}">
+    <link rel="stylesheet" href="{% static './assets/fonts/ionicons.min.css' %}">
+    <link rel="stylesheet" href="{% static './assets/fonts/simple-line-icons.min.css' %}">
+    <link rel="stylesheet" href="{% static './assets/fonts/fontawesome5-overrides.min.css' %}">
+    <link rel="stylesheet" href="{% static './assets/css/Article-Clean.css' %}">
+    <link rel="stylesheet" href="{% static './assets/css/Article-Dual-Column.css' %}">
+    <link rel="stylesheet" href="{% static './assets/css/Article-List.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="{% static './assets/css/Login-Form-Clean.css' %}">
+    <link rel="stylesheet" href="{% static './assets/css/Login-Form-Dark.css' %}">
+    <link rel="stylesheet" href="{% static './assets/css/Registration-Form-with-Photo.css' %}">
+    <link rel="stylesheet" href="{% static './assets/css/untitled.css' %}">
+</head>
+
+<body style="font-family: 'Roboto Slab', serif;">
+    <nav class="navbar navbar-light navbar-expand-lg navigation-clean" style="background: rgb(38,38,97);color: var(--light);">
+        <div class="container"><a class="navbar-brand" style="color: inherit;font-family: 'Bebas Neue', serif;font-size: 48px;"><img class="img-fluid d-none d-sm-none d-md-inline d-lg-inline d-xl-inline" src="{% static './assets/img/Scouts_AUS_Master_Vert_FullCol_Rev_RGB.png' %}" loading="lazy" width="100px" style="margin: 25px;">Radio Active Scout<img class="d-none d-sm-none d-md-inline d-lg-inline d-xl-inline" src=" {% static './assets/img/RAS_placard_digital_labeled_arialBlack_main.png' %}" width="100px" loading="lazy" style="margin: 25px;"></a><a class="btn btn-warning ml-auto" role="button" href="./login.html" style="color: rgb(0,0,0);font-family: 'Roboto Slab', serif;">Login</a></div>
+    </nav>
+    <nav class="navbar navbar-light navbar-expand-lg navigation-clean" style="background: var(--warning);font-family: 'Roboto Slab', serif;">
+        <div class="container"><button data-toggle="collapse" class="navbar-toggler border rounded-pill border-danger" data-target="#navcol-1"></button>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="navbar-nav text-center">
+                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-toggle="dropdown" href="#">Program&nbsp;</a>
+                        <div class="dropdown-menu"><a class="dropdown-item" href="#">Award Scheme</a><a class="dropdown-item" href="#">Planning with the Unit</a><a class="dropdown-item" href="#">Activity Badge</a></div>
+                    </li>
+                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-toggle="dropdown" href="#">Training&nbsp;</a>
+                        <div class="dropdown-menu"><a class="dropdown-item" href="#">Amateur Radio</a><a class="dropdown-item" href="#">Marine Radio</a><a class="dropdown-item" href="#">Commercial Radio</a><a class="dropdown-item" href="#">Learning Portal</a></div>
+                    </li>
+                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-toggle="dropdown" href="#">Activities&nbsp;</a>
+                        <div class="dropdown-menu"><a class="dropdown-item" href="https://vkjotijota.com/">JOTA</a><a class="dropdown-item" href="#">Scout Camps On The Air</a><a class="dropdown-item" href="#">CQ27DOWN</a><a class="dropdown-item" href="#">Top Gun Radio</a></div>
+                    </li>
+                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-toggle="dropdown" href="#">Events&nbsp;</a>
+                        <div class="dropdown-menu"><a class="dropdown-item" href="https://vkjotijota.com/">JOTA</a><a class="dropdown-item" href="#">Scout Camps On The Air</a><a class="dropdown-item" href="#">Amateur Contests</a></div>
+                    </li>
+                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-toggle="dropdown" href="#">Resources&nbsp;</a>
+                        <div class="dropdown-menu"><a class="dropdown-item" href="#">Equipment Hire</a><a class="dropdown-item" href="#">Reference Material</a><a class="dropdown-item" href="#">Tools and Utilities</a></div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="text-center text-white masthead" style="background: url('{% static "./assets/img/cubsLearnFromCL.jpg" }%') center / cover no-repeat;">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-9 mx-auto">
+                    <h3 class="mb-5" style="font-family: 'Roboto Slab', serif;">A <em>RADIO</em>&nbsp;technology initiative for&nbsp;<em>ACTIVE</em>&nbsp;youth involvement using&nbsp;<em>SCOUT&nbsp;</em>methodology.</h3>
+                </div>
+                <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
+                    <form>
+                        <div class="form-row">
+                            <div class="col-12 col-md-9 mb-2 mb-md-0"><input class="form-control form-control-lg" type="email" placeholder="Enter your email..."></div>
+                            <div class="col-12 col-md-3"><button class="btn btn-primary btn-block btn-lg" type="submit">Sign up!</button></div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="text-center bg-light features-icons">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-12 col-xl-12 offset-xl-0">
+                    <div class="mx-auto features-icons-item mb-5 mb-lg-0 mb-lg-3">
+                        <h3>Pick your approach and activate your adventure</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-3 col-xl-3">
+                    <div class="mx-auto features-icons-item mb-5 mb-lg-0 mb-lg-3">
+                        <div class="d-flex features-icons-icon"><i class="far fa-grin-alt m-auto text-primary" data-bss-hover-animate="pulse"></i></div>
+                        <h3>Youth Members</h3>
+                        <p class="lead mb-0">See what skills you can learn and achieve with your Patrol by using diverse technologies</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 col-xl-3">
+                    <div class="mx-auto features-icons-item mb-5 mb-lg-0 mb-lg-3">
+                        <div class="d-flex features-icons-icon"><i class="fas fa-users m-auto text-primary" data-bss-hover-animate="pulse"></i></div>
+                        <h3>Adult Members</h3>
+                        <p class="lead mb-0">Discover new and interesting technological opportunities that await your Unit</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 col-xl-3">
+                    <div class="mx-auto features-icons-item mb-5 mb-lg-0 mb-lg-3">
+                        <div class="d-flex features-icons-icon"><i class="icon ion-radio-waves m-auto text-primary" data-bss-hover-animate="pulse"></i></div>
+                        <h3>Amateur Scouters</h3>
+                        <p class="lead mb-0">Bridge communities of Scouting and Radio Amateurs to support our Learning by Doing approach&nbsp;</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 col-xl-3">
+                    <div class="mx-auto features-icons-item mb-5 mb-lg-0 mb-lg-3">
+                        <div class="d-flex features-icons-icon"><i class="icon-earphones-alt m-auto text-primary" data-bss-hover-animate="pulse"></i></div>
+                        <h3>Amateur Operators</h3>
+                        <p class="lead mb-0">Support the growth of the Amateur Radio hobby and encourage curiosity with a keen and enthusiastic team as a non-Scouter</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="showcase">
+        <div class="container-fluid p-0">
+            <div class="mx-auto features-icons-item mb-5 mb-lg-0 mb-lg-3">
+                <h3 class="text-center">Explore all new program opportunities</h3>
+            </div>
+            <div class="row no-gutters">
+                <div class="col-lg-6 text-white order-lg-2 showcase-img" style="background: url('./assets/img/youthUsingRadios.jpg') center;"><span></span></div>
+                <div class="col-lg-6 my-auto order-lg-1 showcase-text">
+                    <h2>Jamboree On The Air (JOTA)</h2>
+                    <p class="lead mb-0">The biggest Scout Radio experience encompassing participants across the globe!</p><a href="https://vkjotijota.com/" target="_blank">Visit VK JOTI JOTA</a>
+                </div>
+            </div>
+            <div class="row no-gutters">
+                <div class="col-lg-6 text-white showcase-img" style="background: url('./assets/img/girlYouthOnTheAir.jpg') center;"><span></span></div>
+                <div class="col-lg-6 my-auto order-lg-1 showcase-text">
+                    <h2>Scout Camps on the Air</h2>
+                    <p class="lead mb-0">Encouraging extra activities you can do on camp, connecting Scouts across Australia while they're exploring the outdoors, this competition is next level adventure!</p>
+                </div>
+            </div>
+            <div class="row no-gutters">
+                <div class="col-lg-6 text-white order-lg-2 showcase-img" style="background: url('assets/img/vk3jniyagi.png') center;"><span></span></div>
+                <div class="col-lg-6 my-auto order-lg-1 showcase-text">
+                    <h2>Developing skills for life</h2>
+                    <p class="lead mb-0">Training and practical opportunities for development in radiotechnologies - courses are available for you to upskill and join a whole community of radio enthusiasts.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="text-center bg-light features-icons">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-12 col-xl-12 offset-xl-0">
+                    <div class="mx-auto features-icons-item mb-5 mb-lg-0 mb-lg-3">
+                        <h3>Get involved today!</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-3 col-xl-3">
+                    <div class="mx-auto features-icons-item mb-5 mb-lg-0 mb-lg-3">
+                        <div class="d-flex features-icons-icon"><i class="fas fa-clipboard-check m-auto text-primary" data-bss-hover-animate="pulse"></i></div>
+                        <h3>Step 1</h3>
+                        <p class="lead mb-0" style="font-size: 14pt;">Register with Radio Active Scout so we can co-ordinate Activities together</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 col-xl-3">
+                    <div class="mx-auto features-icons-item mb-5 mb-lg-0 mb-lg-3">
+                        <div class="d-flex features-icons-icon"><i class="fas fa-microphone-alt m-auto text-primary" data-bss-hover-animate="pulse"></i></div>
+                        <h3>Step 2</h3>
+                        <p class="lead mb-0" style="font-size: 14pt;">Select an Activity to do,&nbsp; with your Unit, by yourself, or with us</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 col-xl-3">
+                    <div class="mx-auto features-icons-item mb-5 mb-lg-0 mb-lg-3">
+                        <div class="d-flex features-icons-icon"><i class="fas fa-broadcast-tower m-auto text-primary" data-bss-hover-animate="pulse"></i></div>
+                        <h3>Step 3</h3>
+                        <p class="lead mb-0">Plan your adventure, Do your Activity, Review it to make it better next time</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 col-xl-3">
+                    <div class="mx-auto features-icons-item mb-5 mb-lg-0 mb-lg-3">
+                        <div class="d-flex features-icons-icon"><i class="fas fa-award m-auto text-primary" data-bss-hover-animate="pulse"></i></div>
+                        <h3>Step 4</h3>
+                        <p class="lead mb-0">Get your Radio Active Scout activity badges</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="text-center text-white call-to-action" style="background:url('./assets/img/bg-masthead.jpg') no-repeat center center;background-size:cover;">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-9 mx-auto">
+                    <h2 class="mb-4">Ready to get started? Sign up now!</h2>
+                </div>
+                <div class="col-md-10 col-lg-8 col-xl-9 mx-auto">
+                    <form>
+                        <div class="form-row">
+                            <div class="col-12 col-md-9 col-xl-8 mb-2 mb-md-0"><input class="form-control form-control-lg" type="email" placeholder="Enter your email..."></div>
+                            <div class="col-12 col-md-3 col-xl-2"><button class="btn btn-primary btn-block btn-lg" type="submit">Sign up!</button></div>
+                            <div class="col"><button class="btn btn-warning btn-block btn-lg" type="submit">Login</button></div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-light footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 text-center text-lg-left my-auto h-100">
+                    <ul class="list-inline mb-2">
+                        <li class="list-inline-item"><a href="#">About</a></li>
+                        <li class="list-inline-item"><span>⋅</span></li>
+                        <li class="list-inline-item"><a href="#">Contact</a></li>
+                        <li class="list-inline-item"><span>⋅</span></li>
+                        <li class="list-inline-item"><a href="#">Terms of &nbsp;Use</a></li>
+                        <li class="list-inline-item"><span>⋅</span></li>
+                        <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+                    </ul>
+                    <p class="text-muted small mb-4 mb-lg-0">© Radio Active Scout 2021. All Rights Reserved.</p>
+                </div>
+                <div class="col-lg-6 text-center text-lg-right my-auto h-100">
+                    <ul class="list-inline mb-0">
+                        <li class="list-inline-item"><a href="#"><i class="fa fa-facebook fa-2x fa-fw"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fa fa-twitter fa-2x fa-fw"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fa fa-instagram fa-2x fa-fw"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+</body>
+
+</html>
